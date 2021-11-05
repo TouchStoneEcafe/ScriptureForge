@@ -4,8 +4,10 @@
   "description": "This is about automation the SF app usng Cypress automation tool for the Regression test suits",
   "main": "index.js",
   "scripts": {
-    "test": ".\\node_modules\\.bin\\cypress run --config pageLoadTimeout=100000",
-    "runtest": "npm run test"
+    "test": ".\\node_modules\\.bin\\cypress run --spec cypress\\integration\\1-getting-started\\sf-landingPage.spec.js --config pageLoadTimeout=100000",
+    "runtest": "npm run test",
+    "runcypress": "npx cypress run --spec cypress\\integration\\1-getting-started\\sf-landingPage.spec.js --record --key e474f890-98ff-4fe6-86ff-35a646623cab"
+
   },
   "author": "Arunkumar",
   "license": "ISC",
