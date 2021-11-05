@@ -1,0 +1,5 @@
+{
+  "qaUrl": "https://qa.scriptureforge.org",
+  "betaUrl": "https://beta.scriptureforge.org",
+  "localUrl": "https://localhost:5000"
+}
